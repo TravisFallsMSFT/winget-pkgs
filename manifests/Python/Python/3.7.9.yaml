@@ -12,6 +12,7 @@ Installers:
       Url: https://www.python.org/ftp/python/3.7.9/python-3.7.9-amd64.exe
       InstallerType: Exe
       Sha256: E69ED52AFB5A722E5C56F6C21D594E85C17CB29F12F18BB69751CF1714E0F987
+      InstallLocation: C:\Python3.7.9\<INSTALLPATH>
       Switches:
         Silent: /Quiet
         SilentWithProgress: /Passive
