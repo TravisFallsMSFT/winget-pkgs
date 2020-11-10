@@ -2,11 +2,13 @@ Id: Python.Python
 Version: 3.7.9
 Name: Python
 Publisher: Python
-Homepage: https://www.python.org
 License: PSF LICENSE AGREEMENT FOR PYTHON
 LicenseUrl: https://docs.python.org/3/license.html
-Description: Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 AppMoniker: python
+Tags: python, python3, programming language, script, glue language
+FileExtensions: py,pyw,pyc,pyo
+Description: Python is a programming language that lets you work more quickly and integrate your systems more effectively.
+Homepage: https://www.python.org
 Installers: 
     - Arch: x64
       Url: https://www.python.org/ftp/python/3.7.9/python-3.7.9-amd64.exe
@@ -16,4 +18,4 @@ Installers:
       Switches:
         Silent: /Quiet
         SilentWithProgress: /Passive
-        Custom: PrependPath=1 InstallAllUsers=1 AssociatedFiles=1 Shortcuts=1 Include_doc=1 Include_exe=1 InstallLauncherAllUsers=1 Include_Lib=1 Include_pip=1 Include_tcltk=1 Include_test=1 Include_tools=1
+        Custom: PrependPath=1, InstallAllUsers=1, AssociatedFiles=1, Shortcuts=1, Include_doc=1, Include_exe=1, InstallLauncherAllUsers=1, Include_Lib=1, Include_pip=1, Include_tcltk=1, Include_test=1, Include_tools=1
